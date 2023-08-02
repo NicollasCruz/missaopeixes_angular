@@ -113,6 +113,7 @@ $menuBreakpoint: 970px;
   }
 
   .menu-item.hide-on-fullscreen {
+    display: none !important;
     @media(max-width: $menuBreakpoint){
         display: block;
     }
