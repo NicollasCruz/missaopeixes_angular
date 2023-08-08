@@ -6,14 +6,12 @@ import { AppComponent } from './app.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MenuComponent } from './components/menu/menu.component';
-import { HomePageComponent } from './components/home-page/home-page.component';
 import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    HomePageComponent,
     HomeComponent
   ],
   imports: [
