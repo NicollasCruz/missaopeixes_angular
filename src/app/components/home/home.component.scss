@@ -1,4 +1,4 @@
-.container_1 {
+.screen_1 {
   background: url("../../../assets/images/Foto_Jorginho.jpg") no-repeat 92% 30%;
   background-size: 44%;
   width: 100%;
@@ -75,7 +75,7 @@
 
 .sub_container_1 {
   width: 17.5rem;
-  height: 53.8rem;
+  height: 45.8rem;
   background-color: #d9d9d9;
   border-radius: 15px;
   display: flex;
@@ -85,17 +85,19 @@
   padding: 1rem 0;
   position: absolute;
   left: 12rem;
-  top: 36rem;
+  bottom: -22rem;
   z-index: 11;
   @media screen and (max-width: 1480px){
     width: 14.6rem;
+    height: 37rem;
     left: 10rem;
-    top: 27rem;
+    bottom: -24rem;
   }
   @media screen and (max-width: 1000px){
     width: 12.1rem;
-    top: 24rem;
+    height: 30rem;
     left: 7rem;
+    bottom: -20rem;
   }
 }
 
@@ -119,6 +121,19 @@
     width: 10rem;
     height: 3.9rem;
     top: 3.75rem;
+  }
+}
+
+.sub_container_1_img {
+  height: 11.6rem;
+  width: 9.8rem;
+  @media screen and (max-width: 1480px){
+    width: 10rem;
+    height: 8.5rem;
+  }
+  @media screen and (max-width: 1000px){
+    width: 9rem;
+    height: 8rem;
   }
 }
 
@@ -212,7 +227,7 @@
   @media screen and (max-width: 1480px){
     width: 42.5rem;
   }
-  @media screen and (max-width: 1480px){
+  @media screen and (max-width: 1000px){
     width: 42.5rem;
     left: -310px;
   }
@@ -247,5 +262,59 @@
   font-size: 5rem;
   @media screen and (max-width: 1480px){
     font-size: 3.5rem;
+  }
+}
+
+.screen_2{
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #52c3c3;
+  border-radius: 15px;
+  margin-top: 2rem;
+  font-size: 1.9rem;
+  @media screen and (max-width: 1480px) {
+    height: 100vh;
+  }
+}
+
+.screen_2_text{
+  font-size: 1.9rem;
+  color: #fff;
+  @media screen and (max-width: 1480px) {
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 1000px) {
+    font-size: 1.2rem;
+  }
+}
+
+.block_screen_2{
+  width: 50%;
+  height: 35rem;
+  margin-top: 3rem;
+  @media screen and (max-width: 1480px) {
+    width: 36rem;
+    height: 29rem;
+  }
+  @media screen and (max-width: 1000px) {
+    width: 19rem;
+    height: 15.5rem;
+  }
+}
+
+.screen_2_img{
+  width: 44rem;
+  height: 35rem;
+  @media screen and (max-width: 1480px) {
+    width: 36rem;
+    height: 29rem;
+  }
+  @media screen and (max-width: 1000px) {
+    width: 19rem;
+    height: 15.5rem;
   }
 }
